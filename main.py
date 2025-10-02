@@ -15,7 +15,7 @@ document = Document()
 style = document.styles['Normal']
 
 def txt_style(style):
-    choosen_style=int(input('выбирите номер стиля_ '))###########
+    choosen_style=int(input('выбирите номер стиля_ '))
     match choosen_style:
         case 1:
             return 'Times New Roman'
